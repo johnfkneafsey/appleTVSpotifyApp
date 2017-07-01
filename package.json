@@ -1,0 +1,23 @@
+{
+  "name": "appleTVRNApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "15.3.2",
+    "react-native": "github:danilvalov/react-native-appletv",
+    "react-native-blur": "^3.1.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.0.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "15.3.2"
+  }
+}
